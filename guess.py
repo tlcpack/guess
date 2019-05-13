@@ -1,4 +1,3 @@
-# from Invent Your Own Computer Games with Python
 import random
 
 guessesTaken = 0
@@ -36,3 +35,6 @@ if guess != number:
     number = str(number)
     print()
     print(f'Nope. The number I was thikning of  was {number}.')
+
+
+# from Invent Your Own Computer Games with Python
