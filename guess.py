@@ -4,9 +4,15 @@ guessesTaken = 0
 
 print('Hello! What is your name?')
 myName = input()
+print()
 
-number = random.randint(1, 20)
-print(f"Well, {myName}, I am thinking of a number between 1 and 20.")
+print('What should be the highest number for guessing?')
+max_num = input()
+print()
+max_num = int(max_num)
+
+number = random.randint(1, max_num)
+print(f"Well, {myName}, I am thinking of a number between 1 and {max_num}.")
 print()
 
 for guessesTaken in range(6):
