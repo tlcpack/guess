@@ -1,8 +1,11 @@
 import random
+import time
 
 guessesTaken = 0
 
-print('Hello! What is your name?')
+print('Hello! Welcome to Guess the Number!!')
+time.sleep(2)
+print('What is your name?')
 myName = input()
 print()
 
